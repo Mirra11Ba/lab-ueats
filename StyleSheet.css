@@ -1,0 +1,448 @@
+﻿body {
+    background-color: #ffffff;
+}
+#wrapper {
+    width: auto;
+    margin: 0 auto;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0em 0.4em 5px -3px rgba(204, 204, 204, 0.5);
+}
+
+.header-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-flex-item{
+    padding-bottom: 25px;
+}
+
+.logo{
+    display: flex;
+    margin: 25px 0;
+}
+
+.btn-input{
+    display: flex;
+    margin-left: 75%;
+}
+
+.basket{
+    margin-right: 25px;
+    display: flex;
+}
+
+.btn-enter{
+    border: #b9b9b9 1px solid;
+    border-radius: 2px;
+    background-color: white;
+    padding: 9px 15px;
+
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+/*.main_content {
+    width: 92%;
+    margin: 0 auto;
+}*/
+
+.under-border-text{
+    color: #929191;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-bottom: 1px solid #929191;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+.p-moscow{
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.box-img-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.img-size{
+    width: 387px;
+    height: 330px;
+}
+
+.name-of-the-cafe{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.grey-text{
+    font-family: Roboto;
+    color: #929191;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.time{
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+
+
+
+.div-footer{
+    background-color: #262626;
+    color: white;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.box-1{
+    padding-top: 40px;
+    padding-bottom: 32px;
+}
+
+.white-hr{
+    color: white;
+}
+
+.box-2-flex{
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    width: 80%;
+    height: auto;
+}
+
+.grey-box{
+    background-color: #3b3b3b;
+}
+
+.grey-select{
+   
+    color: white; background: #3b3b3b;
+    border: none;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    /*appearance: none;
+    background: url(img/Shape.png) no-repeat right;
+    color: black;
+    background-position-x: calc(100% - 8px);*/
+}
+
+.img-world{
+    vertical-align: middle;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.about-uber{
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.uber-eats{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.box-3-flex{
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: auto;
+}
+
+.box-3-flex-item {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.box-4-flex{
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 80%;
+    height: auto;
+}
+
+.box-4-text {
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.free-box{
+    display: block;
+    position: fixed;
+    background-color: #59bd5a;
+    border-radius: 2px;
+    height: 65px;
+    width: 65px;
+    bottom: 5%;
+    right: 5%;
+}
+
+.img-arrow{
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/*для планшета*/
+@media all and (min-width: 768px) and (max-width: 1024px){
+
+    .container{
+        width: 742px;
+        margin: 0 auto;
+    }
+    .header{
+        width: 100%;
+        height: 70px;
+        box-shadow: 0em 0.4em 5px -3px rgba(204, 204, 204, 0.5);
+    }
+    .btn-input{
+        display: flex;
+        margin-left: 68%;
+    }
+    .basket{
+        
+        margin-left: 20px;
+        display: flex;
+    }
+    .img-size{
+        width: 364px;
+        height: 300px;
+    }
+    .free-box{
+        display: block;
+        position: fixed;
+        background-color: #59bd5a;
+        border-radius: 2px;
+        height: 65px;
+        width: 65px;
+        bottom: 5%;
+        right: 5%;
+    }
+}
+
+/*для телефона от 345*/
+@media all and (min-width: 345px) and (max-width: 767px){
+
+    .container{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .header{
+        width: 100%;
+        height: 70px;
+        box-shadow: 0em 0.4em 5px -3px rgba(204, 204, 204, 0.5);
+    }
+    .btn-input{
+        display: flex;
+        margin-left: 35%;
+    }
+    .basket{
+        visibility: hidden;
+        margin-left: 20px;
+        display: flex;
+    }
+    .img-size{
+        width: 320px;
+        height: 250px;
+    }
+    .box-1{
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+    .box-2-flex{
+        display: flex;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        width: 80%;
+        height: auto;
+    }
+    .box-4-flex{
+        display: flex;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        width: 80%;
+        height: auto;
+    }
+    .box-4-text {
+        font-family: Roboto;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13px;
+    }
+    .free-box{
+        display: block;
+        position: fixed;
+        background-color: #59bd5a;
+        border-radius: 2px;
+        height: 60px;
+        width: 60px;
+        bottom: 5%;
+        right: 7%;
+    }
+}
+
+/*для телефона до 320*/
+@media all and (min-width: 320px) and (max-width: 344px){
+
+    #wrapper {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .container{
+        width: 310px;
+        margin: 0 auto;
+    }
+    .header{
+        width: 100%;
+        height: 70px;
+        box-shadow: 0em 0.4em 5px -3px rgba(204, 204, 204, 0.5);
+    }
+    .btn-input{
+        display: flex;
+        margin-left: 35%;
+    }
+    .basket{
+        visibility: hidden;
+        margin-left: 20px;
+        display: flex;
+    }
+    .img-size{
+        width: 310px;
+        height: 240px;
+    }
+    .box-1{
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+    .box-2-flex{
+        display: flex;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        width: 80%;
+        height: auto;
+    }
+    .box-4-flex{
+        display: flex;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        width: 80%;
+        height: auto;
+    }
+    .box-4-text {
+        font-family: Roboto;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13px;
+    }
+    .free-box{
+        display: block;
+        position: fixed;
+        background-color: #59bd5a;
+        border-radius: 2px;
+        height: 60px;
+        width: 60px;
+        bottom: 5%;
+        right: 7%;
+    }
+}
